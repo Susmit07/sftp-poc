@@ -1,0 +1,9 @@
+com\sterlingcommerce\woodstock\services\apachesftpserver\vfs\filessytem\VFSPosixFileAttributeView.class
+com\sterlingcommerce\woodstock\services\apachesftpserver\vfs\VFSAttributes$Attribute.class
+com\sterlingcommerce\woodstock\services\apachesftpserver\vfs\VFSEventListener.class
+com\sterlingcommerce\woodstock\services\apachesftpserver\vfs\filessytem\VirtualFileSystemProvider.class
+com\sterlingcommerce\woodstock\services\apachesftpserver\vfs\VFSAttributes.class
+com\sterlingcommerce\woodstock\services\apachesftpserver\vfs\AbstractVFSFileAttributeView.class
+com\sterlingcommerce\woodstock\services\apachesftpserver\vfs\ExchangeFileSystemFactory.class
+com\b2bi\test\sshd\ApacheSCPSFTPServer.class
+com\sterlingcommerce\woodstock\services\apachesftpserver\vfs\filessytem\VirtualFileSystem.class
