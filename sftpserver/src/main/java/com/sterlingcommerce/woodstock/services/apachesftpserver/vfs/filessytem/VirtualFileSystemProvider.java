@@ -25,38 +25,39 @@ public class VirtualFileSystemProvider extends RootedFileSystemProvider {
 		// TODO Auto-generated method stub
 		return new VirtualFileSystem(this, path, env);
 	}
-	
+
 	@Override
 	public InputStream newInputStream(Path path, OpenOption... options) throws IOException {
 		// TODO Auto-generated method stub
 		return super.newInputStream(path, options);
 	}
-	
+
 	@Override
 	public OutputStream newOutputStream(Path path, OpenOption... options) throws IOException {
-		System.out.println(">> new outputstream :"+path.toString());
+		System.out.println(">> new outputstream :" + path.toString());
+		Log.debug(">> new outputstream :" + path.toString());
 		return super.newOutputStream(path, options);
 	}
-	
+
 	@Override
 	public FileChannel newFileChannel(Path path, Set<? extends OpenOption> options, FileAttribute<?>... attrs)
 			throws IOException {
 		// TODO Auto-generated method stub
 		return super.newFileChannel(path, options, attrs);
 	}
-	
+
 	@Override
 	public void move(Path source, Path target, CopyOption... options) throws IOException {
 		// TODO Auto-generated method stub
 		super.move(source, target, options);
 	}
-	
+
 	@Override
 	public void copy(Path source, Path target, CopyOption... options) throws IOException {
 		// TODO Auto-generated method stub
 		super.copy(source, target, options);
 	}
-	
+
 	@Override
 	public void delete(Path path) throws IOException {
 		// TODO Auto-generated method stub
